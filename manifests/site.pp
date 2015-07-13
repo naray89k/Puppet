@@ -1,5 +1,9 @@
 #import 'nodes.pp'
 
-file {'/tmp/hello':
+file {'/home/narayanan/hello':
 	content => "Hello World\n"
+}
+
+file {'/home/narayanan/push_git_changes.txt':
+	content => "Test\n"
 }
