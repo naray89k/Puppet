@@ -1,0 +1,23 @@
+# If you just change the port or add more ports here, you will likely also
+# have to change the VirtualHost statement in
+# /etc/apache2/sites-enabled/000-default.conf
+
+Listen <%= @webserver_port %> 
+
+<IfModule ssl_module>
+	Listen 443
+</IfModule>
+
+<IfModule mod_gnutls.c>
+	Listen 443
+</IfModule>
+
+# vim: syntax=apache ts=4 sw=4 sts=4 sr noet
+# this is my Operating system <%= @operatingsystem %>
+#my hostname is <%= @hostname %>
+#my ipaddress is <%= @ipaddress %>
+#my eth0 ip is <%= @ipaddress_eth0 %>
+#my fqdn is <%= @fqdn %>
+#my os is <%= @operatingsystem %>
+#my architecture is <%= @architecture %>
+

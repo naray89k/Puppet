@@ -1,0 +1,480 @@
+    1  uname -a
+    2  uname
+    3  uname -a
+    4  hostname
+    5  sudo zypper ar http://download.videolan.org/pub/vlc/SuSE/Leap_42.2 VLC
+    6  sudo zypper mr -r VLC
+    7  sudo zypper in vlc
+    8  cat /proc/
+    9  cat /proc/cpuinfo 
+   10  man zypper
+   11  sudo zypper rm vlc
+   12  sudo zypper ar http://download.videolan.org/pub/vlc/SuSE/Factory VLC
+   13  man zypper
+   14  sudo zypper ar http://download.videolan.org/pub/vlc/SuSE/Factory vlc
+   15  sudo zypper mr -r vlc
+   16  sudo zypper in vlc
+   17  clear
+   18  which python
+   19  python -V
+   20  which ruby
+   21  ruby -V
+   22  ruby -v
+   23  sudo zypper install puppet
+   24  puppet help
+   25  puppet master
+   26  puppet agent
+   27  puppet man
+   28  puppet man master
+   29  clear
+   30  sudo zypper install acroread
+   31  sudo zypper install evince
+   32  evince
+   33  sudo zypper install okular
+   34  clear
+   35  okular
+   36  exit
+   37  zypper lr -d
+   38  sudo zypper r -d VLC
+   39  zypper rr 1
+   40  sudo zypper rr 1
+   41  zypper lr -d
+   42  zypper search vlc-codecs
+   43  sudo zypper search vlc-codecs
+   44  sudo zypper remove vlc
+   45  sudo zypper re vlc
+   46  zypper help
+   47  sudo zypper ar http://download.videolan.org/pub/vlc/SuSE/Leap_42.2/ VLC
+   48  sudo zypper mr -r VLC
+   49  sudo zypper in VLC
+   50  zypper lr -d
+   51  sudo zypper rr 13
+   52  sudo zypper rr 1
+   53  sudo zypper ar http://download.videolan.org/pub/vlc/SuSE/Leap_42.2/ vlc
+   54  sudo zypper mr -r vlc
+   55  sudo zypper in vlc
+   56  sudo zypper search vlc-codecs
+   57  zypper in vlc-codecs
+   58  sudo zypper in vlc-codecs
+   59  sudo zypper addrepo -f http://packman.inode.at/suse/openSUSE_Leap_42.2/ packman
+   60  sudo zypper addrepo -f http://opensuse-guide.org/repo/openSUSE_Leap_42.2/ dvd
+   61  sudo zypper install k3b-codecs ffmpeg lame gstreamer-plugins-bad gstreamer-plugins-ugly gstreamer-plugins-ugly-orig-addon gstreamer-plugins-libav libdvdcss2
+   62  sudo zypper dup --from http://packman.inode.at/suse/openSUSE_Leap_42.2/
+   63  sudo zypper ps -s
+   64  openssl req -new -x509 -newkey rsa:2048 -keyout key.asc \
+   65  openssl req -new -x509 -newkey rsa:2048 -keyout key.asc -out cert.pem -nodes -days 666 -subj "/CN=narayanan/"
+   66  openssl pkcs12 -export -inkey key.asc -in cert.pem -name kernel_cert -out cert.p12
+   67  certutil -d . -N
+   68  sudo zypper install certutil
+   69  exit
+   70  sudo zypper refresh
+   71  zypper install smplayer
+   72  sudo zypper install smplayer
+   73  smplayer
+   74  cat /etc/os-release 
+   75  cd Downloads/pycharm-community-2016.3.2/
+   76  clear
+   77  cd
+   78  vim .bashrc
+   79  . .bashrc
+   80  cls
+   81  vim .bashrc
+   82  . .bashrc
+   83  cls
+   84  cd -
+   85  ls
+   86  cd bin/
+   87  ls
+   88  ./pycharm.sh 
+   89  cd ..
+   90  ls
+   91  mv openSUSE-Leap-42.2-DVD-x86_640281 Sandisk-32GB
+   92  sudo mv openSUSE-Leap-42.2-DVD-x86_640281 Sandisk-32GB
+   93  ls
+   94  ls -ltr
+   95  sudo mv openSUSE-Leap-42.2-DVD-x86_640281 Sandisk-32GB
+   96  ls
+   97  ls -ltr
+   98  cd openSUSE-Leap-42.2-DVD-x86_64028/
+   99  ls
+  100  exit
+  101  cd /run/media/narayanan/
+  102  ls
+  103  ls -ltr
+  104  ls
+  105  exit
+  106  cd ..
+  107  ls
+  108  ls -ltr
+  109  cd /run/media/
+  110  ls
+  111  cd narayanan/
+  112  ls
+  113  unmount openSUSE-Leap-42.2-DVD-x86_64028
+  114  umount openSUSE-Leap-42.2-DVD-x86_64028
+  115  cd ..
+  116  ls
+  117  rm *
+  118  rm -rf *
+  119  sudo rm -rf *
+  120  ls
+  121  exit
+  122  pwd
+  123  cd Downloads/
+  124  ls
+  125  mv Python_Scripts ../Learning/
+  126  cd ../Learning/
+  127  ls
+  128  cd Python_Scripts/
+  129  ls 
+  130  cd Python
+  131  cd Python_2.7/
+  132  ls
+  133  vim rename.sh
+  134  chmod 755 rename.sh 
+  135  ./rename.sh 
+  136  ls -ltr
+  137  pwd
+  138  vim rename.sh
+  139  ./rename.sh 
+  140  ls -ltr
+  141  vim rename.sh
+  142  ./rename.sh 
+  143  ls -ltr
+  144  id narayanan
+  145  ls
+  146  vim rename.sh
+  147  cp rename.sh ../Python3/
+  148  cd ../Python3/
+  149  ls
+  150  cd ../Python3/
+  151  ls -ltr
+  152  ./rename.sh 
+  153  ls -ltr
+  154  mv /home/narayanan/Learning/Python_Scripts/Python3/filesList.py /home/narayanan/Learning/Python_Scripts/Python3/filesList.txt
+  155  ps -eaf | grep vlc
+  156  kill -9 358
+  157  ps -eaf | grep vlc
+  158  kill -9 1172
+  159  which ruby
+  160  /usr/bin/ruby -V
+  161  /usr/bin/ruby -v
+  162  echo $SHELL
+  163  ls 
+  164  man -ltr
+  165  man ls
+  166  ls -lS
+  167  ls -l
+  168  pwd
+  169  echo $HOME
+  170  var1=10
+  171  var2=20
+  172  var3=(( var1 + var2 ))
+  173  var3=$((var1 + var2))
+  174  echo $var3
+  175  var3=`expr $var1+$var2`
+  176  echo $var3
+  177  var3=`expr $var1 + $var2`
+  178  echo $var3
+  179  cd Learning/
+  180  ls
+  181  cd Python_Scripts/
+  182  ls -ltr
+  183  cd Python3/
+  184  ls
+  185  vim rename.sh
+  186  cd
+  187  cd -
+  188  pwd
+  189  cd -
+  190  pwd
+  191  cd
+  192  ls -a
+  193  ls -la
+  194  ls -a .vimrc
+  195  sudo find / -name "*vimrc*" -type f
+  196  view /usr/share/doc/packages/vim/suse.vimrc
+  197  cp /usr/share/doc/packages/vim/suse.vimrc $HOME/.vimrc
+  198  ls -a .vimrc
+  199  vim .vimrc
+  200  ls -la
+  201  vim .vimrc
+  202  sudo find / -name "*delek*" -type f
+  203  vim .vimrc
+  204  sudo vim /usr/share/vim/vim74/colors/delek.vim
+  205  vim .vimrc
+  206  cd Learning/
+  207  ls
+  208  c Python_Scripts/
+  209  cd Python_Scripts/
+  210  ls
+  211  cd Python3/
+  212  ls
+  213  vim rename.sh 
+  214  vim resultFile.py 
+  215  vim XML_Parser.py 
+  216  cd
+  217  sudo vim /usr/share/vim/vim74/colors/delek.vim
+  218  ls -a
+  219  sudo find / -name "*bashrc*" -type f
+  220  vim .bashrc
+  221  clear
+  222  sd,
+  223  sa[d,
+  224  cls
+  225  vim .bashrc
+  226  which puppet
+  227  man puppet
+  228  puppet help
+  229  puppet status
+  230  puppet help status
+  231  puppet server status 
+  232  puppet status find
+  233  puppet status info
+  234  sudo puppet status info
+  235  which youtube-dl 
+  236  youtube-dl https://www.youtube.com/watch?v=0yVJhb2VkVk
+  237  ps -eaf | grep vlc
+  238  kill -9 1612
+  239  ls
+  240  puppet version
+  241  puppet help
+  242  puppet facts
+  243  puppet help facts
+  244  puppet facts find 
+  245  puppet help facts find 
+  246  puppet resource
+  247  puppet resource file
+  248  puppet resource file /etc
+  249  puppet resource file $HOME
+  250  puppet help resource
+  251  puppet resource --types
+  252  puppet resource resources
+  253  puppet resource zone
+  254  puppet resource yumrepo
+  255  sudo puppet resource yumrepo
+  256  sudo puppet resource host
+  257  uppet apply -e "user { 'captain': ensure => present, }"
+  258  puppet apply -e "user { 'captain': ensure => present, }"
+  259  sudo puppet apply -e "user { 'captain': ensure => present, }"
+  260  cd /etc/puppet/
+  261  ls
+  262  vim puppet.conf 
+  263  cd
+  264  cd /opt/
+  265  ls
+  266  pwd
+  267  cd 
+  268  cd /etc/
+  269  ls
+  270  cd puppet/
+  271  ls
+  272  ls -ltr
+  273  cd
+  274  ls
+  275  cd Learning/
+  276  ls
+  277  mkdir puppet_Learning
+  278  cd puppet_Learning/
+  279  l
+  280  vim captain.pp
+  281  sudo puppet apply captain.pp 
+  282  vim captain.pp
+  283  sudo puppet apply captain.pp 
+  284  vim captain.pp
+  285  mv captain.pp captain_user.pp 
+  286  mv captain_user.pp puppet_user.pp 
+  287  vim puppet_user.pp 
+  288  cp puppet_user.pp puppet_group.pp
+  289  vim puppet_group.pp 
+  290  vim /etc/groups
+  291  vim /etc/
+  292  vim /etc/group
+  293  group puppet
+  294  cat /etc/group | grep puppet
+  295  vim puppet_group.pp 
+  296  sudo puppet apply puppet_group.pp 
+  297  cd /etc/puppet/
+  298  ls
+  299  cd ..
+  300  which yum
+  301  which zapper
+  302  which zypper
+  303  `which zypper` -version
+  304  zypper -v
+  305  zypper pachages
+  306  ps -eaf | grep vlc
+  307  vim vlcKill.sh
+  308  ps -eaf | grep vlc | awk '{print $2}'
+  309  ps -eaf | grep vlc | grep -v 'grep' | awk '{print $2}'
+  310  vim vlcKill.sh
+  311  echo "ps -eaf | grep vlc | grep -v 'grep' | awk '{print $2}'" >> vlcKill.sh 
+  312  vim vlcKill.sh
+  313  chmod 755 vlcKill.sh 
+  314  ./vlcKill.sh 
+  315  cd Learning/
+  316  cd puppet_Learning/
+  317  ls
+  318  vim helloWorld.pp
+  319  puppet apply helloWorld.pp 
+  320  cd Learning/puppet_Learning/
+  321  puppet apply helloWorld.pp 
+  322  sudo puppet apply helloWorld.pp 
+  323  id
+  324  puppet resource mailalias postmaster
+  325  puppet resource user narayanan
+  326  puppet resource user captain
+  327  puppet resource user vaanadhi
+  328  sudo /usr/sbin/visudo
+  329  exit
+  330  sudo puppet resource mailalias postmaster
+  331  puppet resource mailalias postmaster
+  332  sudo /usr/sbin/visudo
+  333  group root
+  334  cd Learning/puppet_Learning/
+  335  vim execEx.pp
+  336  puppet apply execEx.pp 
+  337  ls -tr
+  338  vim /tmp/testfile.txt 
+  339  ls -ltr
+  340  vim createFile.txt
+  341  mv createFile.txt createFile.pp
+  342  vim createFile.pp 
+  343  puppet apply createFile.pp 
+  344  vim createFile.pp 
+  345  cat createFile.pp 
+  346  cat puppet_user.pp 
+  347  vim createFile.pp 
+  348  puppet apply createFile.pp 
+  349  vim createFile.pp 
+  350  puppet apply createFile.pp 
+  351  vim createFile.pp 
+  352  puppet apply createFile.pp 
+  353  rm /tmp/testfile.txt
+  354  puppet apply createFile.pp 
+  355  vim createFile.pp 
+  356  puppet apply createFile.pp 
+  357  ls
+  358  puppet apply execEx.pp 
+  359  vim createFile.pp 
+  360  puppet apply createFile.pp 
+  361  ls -l /tmp/testfile.txt
+  362  cat /tmp/testfile.txt 
+  363  vim createFile.pp 
+  364  puppet apply createFile.pp 
+  365  cat /tmp/testfile.txt 
+  366  puppet config print modulepath
+  367  ls
+  368  ./vlcKill.sh 
+  369  cat vlcKill.sh 
+  370  ps -eaf | grep vlc | grep -v 'grep' | awk '{print $2}
+  371  ps -eaf | grep vlc | grep -v 'grep' | awk '{print $2}'
+  372  clementine
+  373  ps -eaf | grep clementine
+  374  kill -9 14519
+  375  ps -eaf | grep clementine
+  376  exit
+  377  ls -l
+  378  cd Learning/puppet_Learning/
+  379  ls 
+  380  vim varEx.pp
+  381  vim double-assign.pp
+  382  puppet apply double-assign.pp
+  383  facter
+  384  facter > systemDetails.txt
+  385  vim systemDetails.txt 
+  386  puppet facts find
+  387  puppet help facts find
+  388  puppet facts find --verbose
+  389  puppet help facts
+  390  puppet facts find --terminus TERMINUS
+  391  puppet facts find memory
+  392  puppet facts find facter
+  393  puppet facts find yaml
+  394  puppet facts find yaml > yaml.pp
+  395  vim yaml.pp 
+  396  mv yaml.pp yaml.txt
+  397  puppet help facts find
+  398  puppet help facts couch
+  399  puppet help facts find
+  400  puppet help facts inventory_service
+  401  puppet help facts rest
+  402  puppet facts find rest
+  403  facter --json
+  404  vim systemDetails.txt 
+  405  ls -ltr
+  406  vim double-assign.pp 
+  407  vim varEx.pp 
+  408  puppet facts
+  409  facters
+  410  facter
+  411  cd Learning/puppet_Learning/
+  412  ls
+  413  vim varEx.pp 
+  414  exit
+  415  ls *.NEF
+  416  rm *.NEF
+  417  ls *.NEF
+  418  rm *.NEF
+  419  ls -ltr
+  420  vim .vimrc
+  421  exit
+  422  ls
+  423  ./vlcKill.sh 
+  424  youtube-dl https://www.youtube.com/watch?v=38IpX4bZZHI&index=1&list=PLNj9zyw8fAwyMkW2c9oKkGK22H5ce2PPA
+  425  man youtube-dl 
+  426  youtube-dl -t https://www.youtube.com/watch?v=38IpX4bZZHI&index=1&list=PLNj9zyw8fAwyMkW2c9oKkGK22H5ce2PPA
+  427  youtube-dl -cit https://www.youtube.com/watch?v=38IpX4bZZHI&index=1&list=PLNj9zyw8fAwyMkW2c9oKkGK22H5ce2PPA
+  428  youtube-dl -cit https://www.youtube.com/playlist?list=PLNj9zyw8fAwyMkW2c9oKkGK22H5ce2PPA
+  429  cd public_html/
+  430  cd ..
+  431  cd Learning/puppet_Learning/
+  432  ls
+  433  vim varEx.pp 
+  434  ls -a
+  435  mv .vimrc .vimrc.backup
+  436  ls -ltr
+  437  git clone https://github.com/astrails/dotvim.git
+  438  ls -ltr
+  439  mv .vimrc.backup .vimrc
+  440  vim --version
+  441  vim --version | grep python
+  442  vim
+  443  git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+  444  vim .vimrc
+  445  vim
+  446  sudo vim
+  447  vim
+  448  exit
+  449  vim
+  450  cd Learning/
+  451  cd 
+  452  cd -
+  453  cd Python_Scripts/
+  454  ls
+  455  cd Python3/
+  456  ls
+  457  ls -ltr
+  458  vim stringSearch.py 
+  459  cd
+  460  vim .vimrc
+  461  cd -
+  462  vim stringSearch.py 
+  463  cd
+  464  vim .vimrc
+  465  cd -
+  466  vim stringSearch.py 
+  467  cd
+  468  vim .vimrc
+  469  cd -
+  470  vim stringSearch.py 
+  471  cd Learning/puppet_Learning/
+  472  ls
+  473  vim unless.pp
+  474  puppet apply unless.pp 
+  475  vim unless.pp
+  476  puppet apply unless.pp 
+  477  sudo rpm -Uvh https://yum.puppetlabs.com/puppetlabs-release-pc1-el-7.noarch.rpm
+  478  man rpm
+  479  history
+  480  history >history.txt

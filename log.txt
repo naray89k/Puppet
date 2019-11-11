@@ -1,6 +1,0 @@
-/home/narayanan/.puppet/modules/apache/spec/classes/apache_spec.rb
-/home/narayanan/.puppet/modules/apache/spec/acceptance/apache_ssl_spec.rb
-/home/narayanan/.puppet/modules/apache/spec/acceptance/apache_parameters_spec.rb
-/home/narayanan/.puppet/modules/apache/tests/apache.pp
-/usr/share/vim/vim74/syntax/apachestyle.vim
-/usr/share/vim/vim74/syntax/apache.vim
